@@ -66,7 +66,6 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  min-height: 534px;
   gap: 29px;
   align-items: end;
 }
@@ -233,7 +232,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 23px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
@@ -248,9 +247,9 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 .content__list-container {
   position: relative;
   width: 100%;
-  max-height: 298px;
+  height: 298px;
   overflow: auto;
-  padding-block-start: 4px;
+  padding-block-start: 2px;
 }
 
 .content__list {
@@ -312,7 +311,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 100%;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .content__video-card-description {
@@ -333,5 +332,5 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 
 .more-button {
   width: 390px;
-  margin-top: 28px;
+  margin-top: 25px;
 }
